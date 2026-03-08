@@ -1,8 +1,8 @@
 class OllamaUpdate < Formula
   desc "Check for Ollama model updates without pulling — digest-based dry run"
   homepage "https://github.com/bgupta/ollama-update"
-  url "https://github.com/bgupta/ollama-update/archive/refs/tags/v0.1.3.tar.gz"
-  sha256 "eef687721eaabd618183225aa1ae64c585269af3d8b30677b4479928ca11e16d"
+  url "https://github.com/bgupta/ollama-update/archive/refs/tags/v0.1.4.tar.gz"
+  sha256 "27d2a5ef2959a4a8dcc6eeafe03537625165ffadf7830894ac9e578f380fb572"
   license "MIT"
 
   depends_on "curl"
