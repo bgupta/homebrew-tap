@@ -5,6 +5,7 @@ class OllamaUpdate < Formula
   sha256 "83993b4ccaf02db131ac929941d7a7dcf91f09d69490e9a07c2212ae1f3e7807"
   license "MIT"
 
+  depends_on "curl"
   depends_on "jq"
 
   def install
