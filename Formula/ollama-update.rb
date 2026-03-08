@@ -11,6 +11,13 @@ class OllamaUpdate < Formula
     bin.install "ollama-update"
   end
 
+  def caveats
+    <<~EOS
+      ollama-update requires Ollama to be installed separately:
+        https://ollama.com/download
+    EOS
+  end
+
   test do
     assert_match "Usage:", shell_output("#{bin}/ollama-update --help")
   end
