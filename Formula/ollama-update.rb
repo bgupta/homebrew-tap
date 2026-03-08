@@ -7,7 +7,13 @@ class OllamaUpdate < Formula
 
   depends_on "curl"
   depends_on "jq"
-  depends_on "ollama"
+
+  def caveats
+    <<~EOS
+      Requires Ollama to be installed separately:
+        https://ollama.com/download
+    EOS
+  end
 
   def install
     bin.install "ollama-update"
